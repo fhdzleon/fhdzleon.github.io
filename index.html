@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Proyecto fhdzleon</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link id='tema' rel="stylesheet" href="red.css" />
+
+    <script src="jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <!--* Botonera para cambiar el tema-->
+
+    <div id="temeSelector">
+        <div id="toRed"></div>
+        <div id="toGreen"></div>
+        <div id="toPink"></div>
+    </div>
+
+    <!--* La seccion global sera la parte central que contendra toda la web solo por encima del body -->
+
+    <section id="global">
+
+        <!--* ---------------- C A B E C E R A -----------------  -->
+
+        <header>
+            <!--* logo -->
+            <div id="logo">
+                <h1>Proyecto JS AlastorHdz</h1>
+            </div>
+
+            <div class="clearFix"></div>
+
+            <!--* menu de navegacion-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--* ------------------ S L I D E R --------------------- -->
+        <div id="contSlider">
+        <div class="slider">
+            
+            <div><img src="imagenes/img1.JPG" ></div>
+            <div><img src="imagenes/img2.jpg" ></div>
+            <div><img src="imagenes/img3.JPG" ></div>
+            
+          </div>
+        </div>
+        <!--* ------------- C O N T E N I D O ------------------- -->
+
+        <section id="contenido">
+
+            <!--* publicaciones -->
+            <div id="posts">
+
+            </div>
+
+            <!--* menu lateral -->
+            <aside id="sidebar">
+
+                <!--* Quien soy -->
+                <div id="about">
+                    <h4><span>¿Quien soy?:</span></h4>
+                    <img src="imagenes/zoe.JPG" />
+                    <p>Ut et mi vel lectus blandit dapibus. Phasellus aliquet vehicula quam.</p>
+                </div>
+
+                <!--* Falso formulario-->
+
+                <div id="login">
+                    <h4  id="identificado"><span>identificate:</span></h4>
+
+                    <div id="logueado"></div>
+                    <form id="campos_form">
+                        <label for="nameValue">Nombre:</label>
+                        <input type="text" name="name" id="nameValue" autocomplete="given-name">
+                        <br>
+                        <label for="emailValue">mail::</label>
+                        <input type="email" name="email" id="emailValue" autocomplete="email" >
+                        <br>
+                        <label for="passwordValue">Contraseña:</label>
+                        <input type="password" name="password" id="passwordValue">
+                        <br>
+                        <input type="submit" value="Ingresar">
+
+                    </form>
+
+                </div>
+
+            </aside>
+
+            <div class="clearFix"></div>
+
+        </section>
+
+    </section>
+
+    <!--* ------------ P I E  D E  P A G I N A  -------------- -->
+
+    <footer>
+        Desarrollado por fhdzleon para el master de JS Victor Robles &copy;
+        <a href="#" class="subir" >Ir al cielo</a>
+    </footer>
+
+</body>
+
+</html>

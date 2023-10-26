@@ -1,0 +1,27 @@
+#logo {
+    background: #e46fb4;
+}
+
+#menu ul li :hover {
+    background: #e46fb4;
+}
+
+.button-more {
+  
+    background: #e46fb4;
+   
+}
+
+#menu {
+    background: #ffa07a;
+}
+
+#acordeon h3.ui-state-active {
+    background-color:#e46fb4 ;
+}
+
+#reloj {
+    color: #ffa07a;
+    border: 4px dashed #e46fb4;
+      
+}

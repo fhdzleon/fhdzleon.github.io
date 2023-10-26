@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Proyecto fhdzleon</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.theme.min.css" />
+    <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.structure.min.css" />
+
+    <link id='tema' rel="stylesheet" href="red.css" />
+
+    <script src="jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <script src="about.js"></script>
+
+</head>
+
+<body>
+
+    <!--* Botonera para cambiar el tema-->
+
+    <div id="temeSelector">
+        <div id="toRed"></div>
+        <div id="toGreen"></div>
+        <div id="toPink"></div>
+    </div>
+
+    <!--* La seccion global sera la parte central que contendra toda la web solo por encima del body -->
+
+    <section id="global">
+
+        <!--* ---------------- C A B E C E R A -----------------  -->
+
+        <header>
+            <!--* logo -->
+            <div id="logo">
+                <h1>Proyecto JS AlastorHdz</h1>
+            </div>
+
+            <div class="clearFix"></div>
+
+
+
+            <!--* menu de navegacion-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--* -------------------C O N T E N I D O-------------------------------- -->
+
+        <!--* Acordeon About me-->
+
+        <div id="box">
+
+            <h2 id="tituloAbout">Un poco de mí: </h2>
+            <div id="acordeon">
+
+                <h3>¿Quien soy?</h3>
+                <div>
+                    <p>Mi nombre es Felipe Hernández estoy iniciando en el mundo del desarrollo WEB y la programacion,
+                        este es mi primer proyecto completo</p>
+                </div>
+
+                <h3>Proyectos recientes</h3>
+                <div>
+                    <p>¡Bienvenido a mi mundo de desarrollo! Estoy emocionado de presentarte 
+                        mi primer proyecto completo. Este proyecto es el resultado de mi dedicación y pasión por el desarrollo web.</p>
+                </div>
+
+                <h3>Habilidades y tecnologías</h3>
+                <div>
+                   <ul>
+                    <li>HTML 5, CSS 3, Javascript</li>
+                    <li>JQuery, Jquery UI</li>
+                    <li>Typescript</li>
+                    <li>Angular</li>
+                   </ul>
+
+                </div>
+                
+                
+            </div>
+        </div>
+
+
+        <!--* menu lateral -->
+        <aside id="sidebar">
+
+            <!--* Quien soy -->
+            <div id="about">
+                <h4><span>¿Quien soy?:</span></h4>
+                <img src="imagenes/zoe.JPG" />
+                <p>Ut et mi vel lectus blandit dapibus. Phasellus aliquet vehicula quam.</p>
+            </div>
+
+            <!--* Falso formulario-->
+
+            <div id="login">
+                <h4 id="identificado"><span>identificate:</span></h4>
+
+                <div id="logueado"></div>
+                <form id="campos_form">
+                    <label for="nameValue">Nombre:</label>
+                    <input type="text" name="name" id="nameValue" autocomplete="given-name">
+                    <br>
+                    <label for="emailValue">mail::</label>
+                    <input type="email" name="email" id="emailValue" autocomplete="email">
+                    <br>
+                    <label for="passwordValue">Contraseña:</label>
+                    <input type="password" name="password" id="passwordValue">
+                    <br>
+                    <input type="submit" value="Ingresar">
+
+                </form>
+
+            </div>
+
+        </aside>
+
+        <div class="clearFix"></div>
+
+    </section>
+
+    </section>
+
+    <!--* ------------ P I E  D E  P A G I N A  -------------- -->
+
+    <footer>
+        Desarrollado por fhdzleon para el master de JS Victor Robles &copy;
+         
+    </footer>
+
+</body>
+
+</html>
